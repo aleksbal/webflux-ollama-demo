@@ -49,8 +49,15 @@ function askOllama()
 
 function log(message) 
 {
-	var console = document.getElementById('logging');
-	var p = document.createElement('p');
-	p.appendChild(document.createTextNode(message));
-	console.appendChild(p);
+    var console = document.getElementById('logging');
+
+    // Check if the last <p> already exists, if not, create one
+    var lastParagraph = console.lastElementChild;
+    if (!lastParagraph || lastParagraph.tagName !== 'P') {
+        lastParagraph = document.createElement('p');
+        console.appendChild(lastParagraph);
+    }
+
+    // Append the token to the existing text of the last <p>
+    lastParagraph.textContent += message;
 }
