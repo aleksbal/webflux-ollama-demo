@@ -1,5 +1,10 @@
 # Created by http://gitignore.io
 
+### Gradle ###
+# Exclude Folder List #
+.gradle/
+build/
+
 ### Windows ###
 # Windows image file caches
 Thumbs.db
@@ -39,11 +44,6 @@ Icon
 *.jar
 *.war
 *.ear
-
-### Gradle ###
-# Exclude Folder List #
-.gradle/
-build/
 
 
 ### Eclipse ###
