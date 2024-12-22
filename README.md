@@ -38,7 +38,7 @@ To use this application, **Ollama** must be installed and running locally. Follo
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/reactive-webflux-ollama.git
+git clone https://github.com/aleksbal/reactive-webflux-ollama.git
 cd reactive-webflux-ollama
 ```
 
@@ -46,6 +46,8 @@ Build and run the application:
 
 ```bash
 
-./mvnw spring-boot:run
-Open the client in your browser and establish a WebSocket connection to see the streaming in action.
+./gradlew bootRun
 ```
+
+Open the client in your browser (port 8080) and establish a WebSocket connection to see the streaming in action.
+
