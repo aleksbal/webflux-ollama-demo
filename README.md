@@ -49,9 +49,3 @@ Build and run the application:
 ./mvnw spring-boot:run
 Open the client in your browser and establish a WebSocket connection to see the streaming in action.
 ```
-
-## Notes:
-- Replace `your-username/reactive-webflux-ollama` with your actual GitHub repository name.
-- Feel free to add more sections, such as API endpoints, for a detailed explanation.
-
-Let me know if you'd like to enhance this further!
